@@ -2,7 +2,7 @@ import { configure } from '@kadira/storybook';
 
 function loadStories() {
   require('../components/stories/button');
-  require('../components/stories/LineChart');
+  require('../components/stories/Linechart');
   // require as many stories as you need.
 }
 
