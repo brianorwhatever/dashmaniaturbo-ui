@@ -4,7 +4,7 @@ import rd3 from 'rd3';
 
 const LineChart = rd3.LineChart
 
-export default class DashmaniaLineChart extends React.Component {
+export default class TurboLine extends React.Component {
   render() {
     const { chartData, chartOptions } = this.props;
 
@@ -30,7 +30,7 @@ export default class DashmaniaLineChart extends React.Component {
   }
 }
 
-DashmaniaLineChart.propTypes = {
+TurboLine.propTypes = {
   chartData: React.PropTypes.array.isRequired,
   chartOptions: React.PropTypes.object.isRequired
 }

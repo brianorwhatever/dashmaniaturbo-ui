@@ -1,8 +1,8 @@
 import { configure } from '@kadira/storybook';
 
 function loadStories() {
-  require('../src/components/stories/button');
-  require('../src/components/stories/DashmaniaLineChart');
+  require('../app/components/stories/button');
+  require('../app/components/stories/TurboLine');
   // require as many stories as you need.
 }
 
