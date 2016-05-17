@@ -1,12 +1,11 @@
 import React from 'react';
-import ChartJS from 'react-chartjs';
 import rd3 from 'rd3';
 
 const LineChart = rd3.LineChart
 
 export default class TurboLine extends React.Component {
   render() {
-    const { chartData, chartOptions } = this.props;
+    const { chartData } = this.props;
 
     return (
       <LineChart
@@ -31,6 +30,5 @@ export default class TurboLine extends React.Component {
 }
 
 TurboLine.propTypes = {
-  chartData: React.PropTypes.array.isRequired,
-  chartOptions: React.PropTypes.object.isRequired
+  chartData: React.PropTypes.array.isRequired
 }
