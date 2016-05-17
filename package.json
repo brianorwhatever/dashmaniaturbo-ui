@@ -1,0 +1,27 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "First Commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 9001"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianorwhatever/dashmaniaturbo-ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianorwhatever/dashmaniaturbo-ui/issues"
+  },
+  "homepage": "https://github.com/brianorwhatever/dashmaniaturbo-ui#readme",
+  "devDependencies": {
+    "@kadira/storybook": "^1.26.0"
+  },
+  "dependencies": {
+    "react": "^15.0.2",
+    "react-dom": "^15.0.2"
+  }
+}
